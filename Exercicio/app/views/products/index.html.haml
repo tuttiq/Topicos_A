@@ -1,0 +1,27 @@
+%h1 Produtos Cadastrados
+
+%p
+  = link_to 'Voltar', root_path
+  |
+  = link_to 'Novo Produto', new_product_path
+
+%br
+
+%center
+  %table.list
+    - @products.each do |product|
+      %tr
+        %td.item
+          = link_to product.name, product, :class=>'table'
+        %td.options
+          = link_to image_tag('view.png'), product
+            
+          = link_to image_tag('edit.png'), edit_product_path(product)
+           
+          = link_to image_tag('delete.png'), product, confirm: 'Tem certeza que deseja excluir?', method: :delete
+
+%br
+%p
+  = link_to 'Voltar', root_path
+  |
+  = link_to 'Novo Produto', new_product_path

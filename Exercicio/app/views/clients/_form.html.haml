@@ -1,0 +1,45 @@
+= form_for(@client) do |f|
+  
+  - if @client.errors.any?
+    %b
+      = pluralize(@client.errors.count, "erro(s)")
+      nao permitiu(ram) que esse cliente seja salvo:
+    %center
+      %table.commom    
+        - @client.errors.full_messages.each do |msg|
+          %tr
+            %td
+              %i
+              *
+              = msg
+       
+  %br
+  %center
+    %table.commom
+      %tr
+        %td
+          .field
+            %b
+              = f.label 'Nome:'
+        %td
+          = f.text_field :name
+      %tr
+        %td
+          .field
+            %b
+              = f.label 'Endereco:'
+        %td
+          = f.text_field :address
+      %tr
+        %td
+          .field
+            %b
+              = f.label 'Telefone:'
+        %td
+          - if @client.new_record?
+            = f.text_field :phone, :value=>'() -', :size=>10
+          - else
+            = f.text_field :phone, :value=>@client.phone, :size=>10
+    %br
+    .actions
+      = f.submit :value => 'Cadastrar'

@@ -1,0 +1,21 @@
+= image_tag('logo.png')
+%br
+%br
+%br
+
+%center
+  %table.main
+    %tr
+      %th
+        %h1 CLIENTES / COMPRAS
+      %th
+        %h1 PRODUTOS
+    %tr
+      %td
+        = link_to 'Cadastrar novo cliente', new_client_path
+        %br
+        = link_to 'Acessar cadastro de clientes', clients_path
+      %td
+        = link_to 'Cadastrar novo produto', new_product_path
+        %br
+        = link_to 'Acessar cadastro de produtos', products_path

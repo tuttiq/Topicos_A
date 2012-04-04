@@ -1,0 +1,24 @@
+%p#notice= notice
+
+%h1= @client.name
+
+%center
+  %table.commom
+    %tr
+      %td  
+        %b Endereco:
+      %td
+        = @client.address
+    %tr
+      %td  
+        %b Telefone:
+      %td
+        = @client.phone
+
+%p
+  %b= link_to 'COMPRAS', client_orders_path(@client)
+
+%p
+  = link_to 'Voltar', clients_path
+  |
+  = link_to 'Alterar', edit_client_path(@client)

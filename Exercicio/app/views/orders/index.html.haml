@@ -1,0 +1,38 @@
+%h1= @client.name
+
+%p#notice= notice
+
+%p
+  = link_to 'Voltar', @client
+  |
+  = link_to 'Nova Compra', new_client_order_path
+
+%br
+
+%center
+  %table.list
+    %th.list Produto
+    %th.list Preco
+    %th.list Qtde
+    %th.list Data
+    %th.list
+    - @orders.each do |order|
+      %tr
+        %td.item
+          = order.product
+        %td.item
+          = order.product.price
+        %td.item
+          = order.amount
+        %td.item
+          = order.date
+        %td.options
+          = link_to image_tag('edit.png'), edit_client_order_path(@client,order)
+           
+          = link_to image_tag('delete.png'), [@client,order], confirm: 'Tem certeza que deseja excluir?', method: :delete
+
+%br
+%p
+  = link_to 'Voltar', @client
+  |
+  = link_to 'Nova Compra', new_client_order_path

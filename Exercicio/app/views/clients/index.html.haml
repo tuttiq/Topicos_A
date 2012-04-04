@@ -1,0 +1,27 @@
+%h1 Clientes Cadastrados
+
+%p
+  = link_to 'Voltar', root_path
+  |
+  = link_to 'Novo Cliente', new_client_path
+
+%br
+
+%center
+  %table.list
+    - @clients.each do |client|
+      %tr
+        %td.item
+          = link_to client.name, client, :class=>'table'
+        %td.options
+          = link_to image_tag('view.png'), client
+            
+          = link_to image_tag('edit.png'), edit_client_path(client)
+           
+          = link_to image_tag('delete.png'), client, confirm: 'Tem certeza que deseja excluir?', method: :delete
+
+%br
+%p
+  = link_to 'Voltar', root_path
+  |
+  = link_to 'Novo Cliente', new_client_path

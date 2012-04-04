@@ -1,0 +1,42 @@
+= form_for(@product) do |f|
+  
+  - if @product.errors.any?
+    %b
+      = pluralize(@product.errors.count, "erro(s)")
+      nao permitiu(ram) que esse produto seja salvo:
+    %center
+      %table.commom    
+        - @product.errors.full_messages.each do |msg|
+          %tr
+            %td
+              %i
+              *
+              = msg
+       
+  %br
+  %center
+    %table.commom
+      %tr
+        %td
+          .field
+            %b
+              = f.label 'Nome:'
+        %td
+          = f.text_field :name
+      %tr
+        %td
+          .field
+            %b
+              = f.label 'Descricao:'
+        %td
+          = f.text_field :description
+      %tr
+        %td
+          .field
+            %b
+              = f.label 'Preco:'
+        %td
+          = f.text_field :price,:size=>5
+    %br
+    .actions
+      = f.submit :value => 'Cadastrar'

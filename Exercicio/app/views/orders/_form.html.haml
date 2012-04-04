@@ -1,0 +1,50 @@
+= form_for([:client,@order]) do |f|
+  
+  - if @order.errors.any?
+    %b
+      = pluralize(@order.errors.count, "erro(s)")
+      nao permitiu(ram) que essa compra seja salva:
+    %center
+      %table.commom    
+        - @order.errors.full_messages.each do |msg|
+          %tr
+            %td
+              %i
+              *
+              = msg
+       
+  %br
+  %center
+    %table.commom
+      %tr
+        %td
+          %b
+            Cliente:
+        %td
+          = Client.find(params[:client_id])
+      %tr
+        %td
+          .field
+            %b
+              = f.label 'Produto:'
+        %td
+          = f.select :product_id, Product.all.collect { |product| [ product.name, product.id ] }
+      %tr
+        %td
+          .field
+            %b
+              = f.label 'Quantidade:'
+        %td
+          = f.text_field :amount, :size=>5
+      
+      %tr
+        %td
+          .field
+            %b
+              = f.label 'Data:'
+        %td
+          = date_select(:order, :date, :order => [:day, :month, :year] ) 
+      
+    %br
+    .actions
+      = f.submit :value=>'Cadastrar'

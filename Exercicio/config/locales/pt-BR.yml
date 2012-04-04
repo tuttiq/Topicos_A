@@ -1,0 +1,53 @@
+pt-BR:
+  activerecord:
+    errors:
+      models:
+        client:
+          attributes:
+            name:
+              blank: ": campo eh obrigatorio."
+            address:
+              blank: ": campo eh obrigatorio."
+            phone:
+              blank: ": campo eh obrigatorio."
+              invalid: ": deve ser no formato (##) ####-####."
+        order:
+          attributes:
+            client:
+              invalid: ": contem erros de cadastro. Volte e altere o cadastro do cliente."
+            product:
+              invalid: ": contem erros de cadastro. Volte e altere o cadastro do produto."
+            amount:
+              blank: ": campo eh obrigatorio."
+              not_a_number: ": deve ser apenas numeros."
+        product:
+          attributes:
+            name:
+              blank: ": campo eh obrigatorio."
+              too_long: ": maximo de 25 caracteres."
+            description:
+              too_log: ": maximo de 500 caracteres."
+            price:
+              blank: ": campo eh obrigatorio."
+              not_a_number: ": deve ser apenas numeros."
+
+  date:
+    formats:
+      default: "%d/%m/%Y"
+
+    day_names: [Domingo, Segunda, Terca, Quarta, Quinta, Sexta, Sabado]
+    month_names: [~, Janeiro, Fevereiro, Marco, Abril, Maio, Junha, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
+ 
+   # Used in date_select and datetime_select.
+    order:
+      - :day
+      - :month
+      - :year
+
+# Used in array.to_sentence.
+  support:
+    array:
+      words_connector: ", "
+      two_words_connector: " and "
+      last_word_connector: ", and "
+

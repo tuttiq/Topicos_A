@@ -1,0 +1,103 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1331857278.9419148:@value{	I"length:EFiG
+I"digest;
+F"%9d05f63b89a86277409cb9f3518740e1I"source;
+FI"G
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+
+/* line 1, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  margin: 10px auto;
+  background-image: url("bg.gif");
+  background-repeat: repeat-xy;
+  font-family: "San Serif";
+  font-size: 13px;
+  color: #00008B;
+}
+
+/* line 10, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+h1 {
+  font-size: 18px;
+  color: #0000FF;
+}
+
+/* line 15, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+div.main {
+  margin: 0px auto;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border: 1px dashed blue;
+  width: 630px;
+  text-align: center;
+}
+
+/* line 25, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+table.main {
+  width: 500px;
+  font-family: "Sans Serif";
+  font-size: 18px;
+  color: #00008B;
+  text-align: center;
+}
+
+/* line 36, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+table.list {
+  width: 350px;
+  font-family: "Sans Serif";
+  font-size: 13px;
+  color: #00008B;
+}
+
+/* line 43, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+table.commom {
+  font-family: "Sans Serif";
+  font-size: 13px;
+  color: #00008B;
+}
+
+/* line 49, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+th.list {
+  text-align: left;
+}
+
+/* line 53, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+td.item {
+  border-bottom: 1px dashed #3399CC;
+  text-align: left;
+}
+
+/* line 59, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+td.options {
+  border-bottom: 1px dashed #3399CC;
+  text-align: right;
+}
+
+/* line 66, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+h3 {
+  font-size: 28px;
+  color: #FF00FF;
+}
+
+/* line 71, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+a.table {
+  color: purple;
+  text-decoration: none;
+}
+
+/* line 76, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: purple;
+  text-decoration: underline;
+}
+
+/* line 80, C:/Users/Tutti/Desktop/Lojinha/Exercicio/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #9370D8;
+  text-decoration: italic;
+}
+;
+FI"_version;
+F"%6c8f8428305f59ea0450051f9df26f6a

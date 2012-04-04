@@ -1,0 +1,1345 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-15 21:21:13 -0300
+  Processing by RootController#index as HTML
+Rendered root/index.html.haml within layouts/application (5.0ms)
+Compiled application.css  (1ms)  (pid 3244)
+Compiled scaffolds.css  (13ms)  (pid 3244)
+Compiled application.js  (27ms)  (pid 3244)
+Compiled jquery.js  (3ms)  (pid 3244)
+Compiled jquery_ujs.js  (0ms)  (pid 3244)
+Compiled clients.js  (601ms)  (pid 3244)
+Completed 200 OK in 867ms (Views: 866.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-15 21:21:19 -0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-15 21:21:19 -0300
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-15 21:21:19 -0300
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-15 21:21:19 -0300
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-15 21:21:19 -0300
+Served asset /clients.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-15 21:21:19 -0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-15 21:21:19 -0300
+Served asset /bg.gif - 200 OK (9ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-15 21:21:19 -0300
+Served asset /logo.png - 200 OK (39ms)
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2012-03-15 21:21:49 -0300
+  Processing by ClientsController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'clients'):
+  app/controllers/clients_controller.rb:15:in `new'
+  app/controllers/clients_controller.rb:15:in `new'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-15 21:30:37 -0300
+  Processing by RootController#index as HTML
+Rendered root/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 97ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-15 21:30:42 -0300
+Served asset /clients.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-15 21:30:42 -0300
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-15 21:30:42 -0300
+Served asset /jquery.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-15 21:30:42 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-15 21:30:42 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-15 21:30:43 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-15 21:30:43 -0300
+Served asset /bg.gif - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-15 21:30:43 -0300
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2012-03-15 21:30:45 -0300
+  Processing by ClientsController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'clients'):
+  app/controllers/clients_controller.rb:15:in `new'
+  app/controllers/clients_controller.rb:15:in `new'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-03-15 21:31:04 -0300
+  Processing by ClientsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'clients'):
+  app/controllers/clients_controller.rb:5:in `index'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2012-03-15 21:31:09 -0300
+  Processing by ProductsController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'products'):
+  app/controllers/products_controller.rb:15:in `new'
+  app/controllers/products_controller.rb:15:in `new'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (115.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (66.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateClients (20111023224926)
+  [1m[35m (1.0ms)[0m  CREATE TABLE "clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" varchar(255), "phone" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20111023224926')[0m
+Migrating to CreateOrders (20111023235821)
+  [1m[35m (2.0ms)[0m  CREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "client_id" integer, "product_id" integer, "amount" integer, "date" date, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("orders")[0m
+  [1m[35m (0.0ms)[0m  CREATE INDEX "index_orders_on_client_id" ON "orders" ("client_id")
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20111023235821')[0m
+Migrating to CreateProducts (20111024005903)
+  [1m[35m (1.0ms)[0m  CREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "price" float, "name" varchar(255), "description" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20111024005903')[0m
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("clients")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("orders")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_orders_on_client_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("products")[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-16 17:06:49 -0300
+  Processing by RootController#index as HTML
+Rendered root/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 271ms (Views: 271.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:06:55 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:06:55 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:06:55 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:06:55 -0300
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:06:55 -0300
+Served asset /clients.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:06:55 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:06:55 -0300
+Served asset /bg.gif - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-16 17:06:55 -0300
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2012-03-16 17:32:09 -0300
+  Processing by ClientsController#new as HTML
+Rendered clients/_form.html.haml (15.0ms)
+Rendered clients/new.html.haml within layouts/application (94.0ms)
+Completed 200 OK in 110ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:32:10 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:32:10 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:10 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:10 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:10 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:10 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:32:10 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started POST "/clients" for 127.0.0.1 at 2012-03-16 17:32:35 -0300
+  Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C0YfVFHcivuOAcagxdF7iu1OeEWposh27ZbwCixakC8=", "client"=>{"name"=>"lelele", "address"=>"meu address", "phone"=>"(19)2582-4859"}, "commit"=>"Cadastrar"}
+Rendered clients/_form.html.haml (3.0ms)
+Rendered clients/new.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 25ms (Views: 18.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:32:35 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:32:36 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:36 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:36 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:36 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:36 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:32:36 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started POST "/clients" for 127.0.0.1 at 2012-03-16 17:32:58 -0300
+  Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C0YfVFHcivuOAcagxdF7iu1OeEWposh27ZbwCixakC8=", "client"=>{"name"=>"lelele", "address"=>"meu address", "phone"=>"(19) 9122-5263"}, "commit"=>"Cadastrar"}
+  [1m[36mSQL (148.0ms)[0m  [1mINSERT INTO "clients" ("address", "created_at", "name", "phone", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["address", "meu address"], ["created_at", Fri, 16 Mar 2012 20:32:58 UTC +00:00], ["name", "lelele"], ["phone", "(19) 9122-5263"], ["updated_at", Fri, 16 Mar 2012 20:32:58 UTC +00:00]]
+Redirected to http://localhost:3000/clients/1
+Completed 302 Found in 322ms
+
+
+Started GET "/clients/1" for 127.0.0.1 at 2012-03-16 17:32:58 -0300
+  Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered clients/show.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 49ms (Views: 23.0ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:32:58 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:32:58 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:59 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:59 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:59 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:32:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:32:59 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients/1/orders" for 127.0.0.1 at 2012-03-16 17:33:03 -0300
+  Processing by OrdersController#index as HTML
+  Parameters: {"client_id"=>"1"}
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."client_id" = 1
+Rendered orders/index.html.haml within layouts/application (73.0ms)
+Completed 200 OK in 190ms (Views: 95.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:03 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:03 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:03 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:03 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:03 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:03 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:04 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients/1/orders/new" for 127.0.0.1 at 2012-03-16 17:33:05 -0300
+  Processing by OrdersController#new as HTML
+  Parameters: {"client_id"=>"1"}
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+Rendered orders/_form.html.haml (259.0ms)
+Rendered orders/new.html.haml within layouts/application (276.0ms)
+Completed 200 OK in 311ms (Views: 285.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:06 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:06 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:06 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:06 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:06 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:06 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:06 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients/1/orders" for 127.0.0.1 at 2012-03-16 17:33:09 -0300
+  Processing by OrdersController#index as HTML
+  Parameters: {"client_id"=>"1"}
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."client_id" = 1
+Rendered orders/index.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 36ms (Views: 22.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:10 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:10 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:10 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:10 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:10 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:10 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:10 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients/1" for 127.0.0.1 at 2012-03-16 17:33:12 -0300
+  Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered clients/show.html.haml within layouts/application (30.0ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:12 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:13 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:13 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:13 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:13 -0300
+Served asset /clients.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:13 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:13 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-03-16 17:33:16 -0300
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients" 
+Rendered clients/index.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:16 -0300
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:16 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:16 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:16 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:16 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:16 -0300
+Served asset /clients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:17 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/view.png" for 127.0.0.1 at 2012-03-16 17:33:17 -0300
+Served asset /view.png - 200 OK (11ms)
+
+
+Started GET "/assets/edit.png" for 127.0.0.1 at 2012-03-16 17:33:17 -0300
+Served asset /edit.png - 200 OK (41ms)
+
+
+Started GET "/assets/delete.png" for 127.0.0.1 at 2012-03-16 17:33:17 -0300
+Served asset /delete.png - 200 OK (7ms)
+
+
+Started GET "/clients/1/edit" for 127.0.0.1 at 2012-03-16 17:33:22 -0300
+  Processing by ClientsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered clients/_form.html.haml (8.0ms)
+Rendered clients/edit.html.haml within layouts/application (13.0ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:22 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:22 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:22 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:22 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:23 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:23 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:23 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients/1" for 127.0.0.1 at 2012-03-16 17:33:26 -0300
+  Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered clients/show.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:27 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:27 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:27 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:27 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:27 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:27 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:28 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-03-16 17:33:29 -0300
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" [0m
+Rendered clients/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:29 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:29 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:29 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:29 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:29 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:30 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:30 -0300
+Served asset /bg.gif - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-16 17:33:31 -0300
+  Processing by RootController#index as HTML
+Rendered root/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:31 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:31 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:31 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:31 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:31 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:31 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:32 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-16 17:33:32 -0300
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2012-03-16 17:33:33 -0300
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.haml (40.0ms)
+Rendered products/new.html.haml within layouts/application (56.0ms)
+Completed 200 OK in 69ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:33 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:33 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:33 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:33 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:33 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:33 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:34 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-03-16 17:33:45 -0300
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C0YfVFHcivuOAcagxdF7iu1OeEWposh27ZbwCixakC8=", "product"=>{"name"=>"vassoura", "description"=>"verde", "price"=>"14,00"}, "commit"=>"Cadastrar"}
+Rendered products/_form.html.haml (4.0ms)
+Rendered products/new.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 26ms (Views: 18.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:45 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:46 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:46 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:46 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:46 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:46 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:46 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-03-16 17:33:52 -0300
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C0YfVFHcivuOAcagxdF7iu1OeEWposh27ZbwCixakC8=", "product"=>{"name"=>"vassoura", "description"=>"verde", "price"=>"14.00"}, "commit"=>"Cadastrar"}
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "products" ("created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 16 Mar 2012 20:33:52 UTC +00:00], ["description", "verde"], ["name", "vassoura"], ["price", 14.0], ["updated_at", Fri, 16 Mar 2012 20:33:52 UTC +00:00]]
+Redirected to http://localhost:3000/products/1
+Completed 302 Found in 452ms
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-03-16 17:33:52 -0300
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered products/show.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:52 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:53 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:53 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:53 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:53 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:53 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:53 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-03-16 17:33:57 -0300
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+Rendered products/index.html.haml within layouts/application (13.0ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:57 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:57 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:57 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:57 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:57 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:57 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:33:58 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2012-03-16 17:33:59 -0300
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.haml (9.0ms)
+Rendered products/new.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:59 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:59 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:33:59 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:33:59 -0300
+Served asset /clients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:00 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:00 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-03-16 17:34:12 -0300
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C0YfVFHcivuOAcagxdF7iu1OeEWposh27ZbwCixakC8=", "product"=>{"name"=>"gel", "description"=>"pra cabelo", "price"=>"4.9"}, "commit"=>"Cadastrar"}
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "products" ("created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 16 Mar 2012 20:34:12 UTC +00:00], ["description", "pra cabelo"], ["name", "gel"], ["price", 4.9], ["updated_at", Fri, 16 Mar 2012 20:34:12 UTC +00:00]]
+Redirected to http://localhost:3000/products/2
+Completed 302 Found in 331ms
+
+
+Started GET "/products/2" for 127.0.0.1 at 2012-03-16 17:34:12 -0300
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "2"]]
+Rendered products/show.html.haml within layouts/application (6.0ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:12 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:13 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:13 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:13 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:13 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:13 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:13 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-03-16 17:34:15 -0300
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+Rendered products/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:15 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:15 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:15 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:15 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:15 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:15 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:15 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-16 17:34:17 -0300
+  Processing by RootController#index as HTML
+Rendered root/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:18 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:18 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:18 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:18 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:18 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:18 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:19 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-16 17:34:19 -0300
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-03-16 17:34:20 -0300
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" 
+Rendered clients/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:20 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:20 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:20 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:20 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:20 -0300
+Served asset /clients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:20 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:21 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients/1" for 127.0.0.1 at 2012-03-16 17:34:22 -0300
+  Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered clients/show.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:22 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:22 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:22 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:22 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:22 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:23 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:23 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients/1/orders" for 127.0.0.1 at 2012-03-16 17:34:24 -0300
+  Processing by OrdersController#index as HTML
+  Parameters: {"client_id"=>"1"}
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."client_id" = 1[0m
+Rendered orders/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 33ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:24 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:24 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:24 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:24 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:24 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:24 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:25 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients/1/orders/new" for 127.0.0.1 at 2012-03-16 17:34:25 -0300
+  Processing by OrdersController#new as HTML
+  Parameters: {"client_id"=>"1"}
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+Rendered orders/_form.html.haml (76.0ms)
+Rendered orders/new.html.haml within layouts/application (78.0ms)
+Completed 200 OK in 90ms (Views: 87.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:25 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:26 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:26 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:26 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:26 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:26 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:26 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started POST "/clients/1/orders" for 127.0.0.1 at 2012-03-16 17:34:36 -0300
+  Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C0YfVFHcivuOAcagxdF7iu1OeEWposh27ZbwCixakC8=", "order"=>{"product_id"=>"1", "amount"=>"2", "date(3i)"=>"16", "date(2i)"=>"3", "date(1i)"=>"2012"}, "commit"=>"Cadastrar", "client_id"=>"1"}
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = 1 LIMIT 1
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "orders" ("amount", "client_id", "created_at", "date", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["amount", 2], ["client_id", 1], ["created_at", Fri, 16 Mar 2012 20:34:36 UTC +00:00], ["date", Fri, 16 Mar 2012], ["product_id", 1], ["updated_at", Fri, 16 Mar 2012 20:34:36 UTC +00:00]]
+Redirected to http://localhost:3000/clients/1/orders
+Completed 302 Found in 404ms
+
+
+Started GET "/clients/1/orders" for 127.0.0.1 at 2012-03-16 17:34:36 -0300
+  Processing by OrdersController#index as HTML
+  Parameters: {"client_id"=>"1"}
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."client_id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+Rendered orders/index.html.haml within layouts/application (35.0ms)
+Completed 200 OK in 102ms (Views: 70.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:36 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:37 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:37 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:37 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:37 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:37 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:37 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients/1" for 127.0.0.1 at 2012-03-16 17:34:46 -0300
+  Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered clients/show.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:47 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:47 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:47 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:47 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:47 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:47 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:48 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-03-16 17:34:49 -0300
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" [0m
+Rendered clients/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:49 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:49 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:49 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:49 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:49 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:50 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:50 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-16 17:34:51 -0300
+  Processing by RootController#index as HTML
+Rendered root/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:52 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-16 17:34:52 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:52 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:52 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:52 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-16 17:34:52 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-16 17:34:53 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-16 17:34:53 -0300
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-27 19:12:41 -0300
+  Processing by RootController#index as HTML
+Rendered root/index.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 423ms (Views: 422.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-27 19:12:50 -0300
+  Processing by RootController#index as HTML
+Rendered root/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-27 19:12:50 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-27 19:12:50 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-27 19:12:50 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-27 19:12:50 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-27 19:12:50 -0300
+Served asset /clients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-27 19:12:51 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-27 19:12:51 -0300
+Served asset /bg.gif - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-27 19:12:51 -0300
+Served asset /logo.png - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-27 19:12:55 -0300
+  Processing by RootController#index as HTML
+Rendered root/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2012-03-27 19:13:24 -0300
+  Processing by ClientsController#new as HTML
+Rendered clients/_form.html.haml (24.0ms)
+Rendered clients/new.html.haml within layouts/application (97.0ms)
+Completed 200 OK in 141ms (Views: 139.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-27 19:13:24 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-27 19:13:25 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-27 19:13:25 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-03-27 19:13:25 -0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-27 19:13:25 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-27 19:13:25 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.gif" for 127.0.0.1 at 2012-03-27 19:13:25 -0300
+Served asset /bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-27 19:13:30 -0300
+  Processing by RootController#index as HTML
+Rendered root/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
