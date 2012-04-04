@@ -1,0 +1,5 @@
+c:\users\admin\documents\visual studio 2010\Projects\Cap12\Cap12\bin\Cap12.dll
+c:\users\admin\documents\visual studio 2010\Projects\Cap12\Cap12\bin\Cap12.pdb
+c:\users\admin\documents\visual studio 2010\Projects\Cap12\Cap12\obj\Debug\ResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2010\Projects\Cap12\Cap12\obj\Debug\Cap12.dll
+c:\users\admin\documents\visual studio 2010\Projects\Cap12\Cap12\obj\Debug\Cap12.pdb

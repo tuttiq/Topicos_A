@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div class="page">
+
+        <div id="header">
+            <div id="title">
+                <h1>My MVC Application</h1>
+            </div>
+              
+            <div id="logindisplay">
+                <% Html.RenderPartial("LogOnUserControl"); %>
+            </div> 
+            
+            <div id="menucontainer">
+            
+                <ul id="menu">              
+                    <li><%: Html.ActionLink("Home", "Index", "Home")%></li>
+                    <li><%: Html.ActionLink("About", "About", "Home")%></li>
+                </ul>
+            
+                <br />
+            
+            </div>
+        </div>
+
+        <div id="main">
+            <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" 
+                DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" 
+                Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" 
+                Orientation="Horizontal" StaticSubMenuIndent="10px">
+                <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicMenuStyle BackColor="#FFFBD6" />
+                <DynamicSelectedStyle BackColor="#FFCC66" />
+                <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticSelectedStyle BackColor="#FFCC66" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+                EnableViewState="False" ShowStartingNode="False" />
+            <br />
+            <br />
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" 
+                Font-Size="0.8em" PathSeparator=" : ">
+                <CurrentNodeStyle ForeColor="#333333" />
+                <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+            </asp:SiteMapPath>
+            <br />
+            <br />
+            <br />
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" 
+                ImageSet="XPFileExplorer" NodeIndent="15">
+                <HoverNodeStyle Font-Underline="True" ForeColor="#6666AA" />
+                <NodeStyle Font-Names="Tahoma" Font-Size="8pt" ForeColor="Black" 
+                    HorizontalPadding="2px" NodeSpacing="0px" VerticalPadding="2px" />
+                <ParentNodeStyle Font-Bold="False" />
+                <SelectedNodeStyle BackColor="#B5B5B5" Font-Underline="False" 
+                    HorizontalPadding="0px" VerticalPadding="0px" />
+            </asp:TreeView>
+            <br />
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+            <div id="footer">
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
